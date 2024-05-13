@@ -1,0 +1,22 @@
+<div *ngIf="products?.length">
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Código</th>
+            <th>Clasificación</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products">
+            <td>{{ product.id }}</td>
+            <td>{{ product.nombre }}</td>
+            <td>{{ product.precio }}</td>
+            <td>{{ product.codigo }}</td>
+            <td>{{ product.clasificacion }}</td>
+            </tr>
+        </tbody>
+      </table>
+</div>
