@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductosModule } from './productos/productos.module';
-import { TransbankModule } from './transbank/transbank.module';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +16,6 @@ import { TransbankModule } from './transbank/transbank.module';
     AppRoutingModule,
     HttpClientModule,
     ProductosModule,
-    TransbankModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
